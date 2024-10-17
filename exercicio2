@@ -1,0 +1,11 @@
+function ordenarPorIdade(pessoas) {
+    return pessoas.sort((a, b) => a.idade - b.idade);
+  }
+  
+  // Exemplo de uso:
+  let pessoas = [
+    { nome: "Pedro", idade: 25 },
+    { nome: "Diogo", idade: 28 },
+    { nome: "Igor", idade: 20 }
+  ];
+  console.log(ordenarPorIdade(pessoas));
