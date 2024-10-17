@@ -1,0 +1,12 @@
+function substituirElemento(array, valorAntigo, valorNovo) {
+    for (let i = 0; i < array.length; i++) {
+      if (array[i] === valorAntigo) {
+        array[i] = valorNovo;
+      }
+    }
+    return array;
+  }
+  
+  // Exemplo de uso:
+  let array = [1, 2, 3, 2, 4, 2, 5];
+  console.log(substituirElemento(array, 2, 10));
