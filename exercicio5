@@ -1,0 +1,19 @@
+function somaMatriz(matriz) {
+    let soma = 0;
+    
+    for (let linha of matriz) {
+      for (let numero of linha) {
+        soma += numero;
+      }
+    }
+    
+    return soma;
+  }
+  
+  // Exemplo de uso:
+  let matriz = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+  ];
+  console.log(somaMatriz(matriz));
