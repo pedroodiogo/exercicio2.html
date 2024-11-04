@@ -3,6 +3,5 @@ function ehPalindromo(str) {
     return str === str.split('').reverse().join('');
   }
   
-  // Exemplos de uso:
   console.log(ehPalindromo("A man, a plan, a canal: Panama"));
   console.log(ehPalindromo("race a car"));
