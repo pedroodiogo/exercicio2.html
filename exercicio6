@@ -7,6 +7,5 @@ function substituirElemento(array, valorAntigo, valorNovo) {
     return array;
   }
   
-  // Exemplo de uso:
   let array = [1, 2, 3, 2, 4, 2, 5];
   console.log(substituirElemento(array, 2, 10));
