@@ -10,7 +10,6 @@ function somaMatriz(matriz) {
     return soma;
   }
   
-  // Exemplo de uso:
   let matriz = [
     [1, 2, 3],
     [4, 5, 6],
